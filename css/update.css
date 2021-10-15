@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+}
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  width: 30%;
+}
+.main-form {
+  border: 1px solid #dfe4ea;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #2f3542;
+}
+.main-form input:not(.btn),
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #dfe4ea;
+  padding: 10px;
+  border-radius: 4px;
+}
+.main-form input:not(.btn),
+textarea:focus {
+  outline: none;
+}
+.main-form input[type="file"] {
+  color: #fff;
+}
+.main-form .btn {
+  background-color: #fff;
+}
+.main-form .btn-outline-success:hover {
+  color: #333;
+}

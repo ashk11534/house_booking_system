@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+}
+.main-content {
+  display: flex;
+}
+
+/* .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+.left {
+  width: 30%;
+}
+.right {
+  width: 37.5%;
+  margin: 20px 0;
+  background-color: #747d8c;
+  padding: 20px;
+  border-radius: 4px;
+}
+.bottom {
+  flex: 1;
+  margin: 20px 10px;
+  background-color: #747d8c;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+h1 {
+  margin-left: 20px;
+}
+hr {
+  margin-left: 20px;
+  width: 14%;
+  border: 5px solid rgb(15, 14, 14);
+  border-radius: 4px;
+}
+
+.main-form {
+  border: 1px solid #dfe4ea;
+  margin: 20px 10px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #2f3542;
+}
+.main-form input:not(.btn),
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #dfe4ea;
+  padding: 10px;
+  border-radius: 4px;
+}
+.main-form input:not(.btn),
+textarea:focus {
+  outline: none;
+}
+.main-form input[type="file"] {
+  color: #fff;
+}
+.main-form .btn {
+  background-color: #fff;
+}
+.main-form .btn-outline-success:hover {
+  color: #333;
+}
